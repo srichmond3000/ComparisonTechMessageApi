@@ -1,0 +1,9 @@
+Hard-coded data - in a production app this would be using a database with an ORM such as Entity Framework Core.
+
+Logging - a production app would have logging, e.g. using Kibana.
+
+Mapping - I would consider using AutoMapper instead of manually mapping.
+
+Exception handling - in production there would be proper exception handling.
+
+Parameter checking - public methods should check for null or out of range parameter values.
